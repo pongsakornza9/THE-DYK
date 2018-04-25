@@ -35,6 +35,23 @@ body, html {
     <a href="contact_us.html" class="w3-bar-item w3-button">contact us</a>
   </div>
 </nav>
+    <header class="w3-bar w3-top w3-hide-large w3-xlarge bg-halfGrey">
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-card-4" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:225px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+  <!-- Top header -->
+   <header class="w3-container w3-xlarge bg-halfGrey">
+    <h1 class="w3-left w3-text-black w3-margin-left"><b>THE DYK</b></h1>
+  </header>
     
 <!-- Header with image -->
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
